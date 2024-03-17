@@ -1,0 +1,16 @@
+<html>
+<head>
+<title> menu </title>
+</head>
+<body>
+<h1><center>Menu</center></h1>
+<h3><center>Coffee<center></h3>
+<a href="C:\Users\Shravani\Desktop\codes\microproject\Coffee.jpg" width="400" height="500"></center><br>
+<h3><center>Sandwich<center></h3><br>
+<a href="C:\Users\Shravani\Desktop\codes\microproject\Sandwich.jpg" width="400" height="500"></center><br>
+<h3><center>Burger<center></h3><br>
+<a href="C:\Users\Shravani\Desktop\codes\microproject\Burger.jpg" width="400" height="500"></center><br>
+<h3><center>Pizza<center></h3><br>
+<a href="C:\Users\Shravani\Desktop\codes\microproject\Pizza.jpg" width="400" height="500"></center><br>
+</body>
+</html>

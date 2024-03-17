@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>navbar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style> 
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+.menu-bar{
+text-align:center;
+}
+.menu-bar ul{
+display:inline-flex;
+list-style:none;
+color:brown;
+}
+.menu-bar ul li{
+width:100px;
+margin:5px;
+padding:15px;
+}
+.menu-bar ul li a{
+text-decoration:none;
+color:brown;
+}
+.active,.menu-bar ul li:hover{
+background:rosybrown;
+background-radius:3px;
+}
+.container{
+width:100vw;
+height:100vh;
+positon:relative;
+background-image:url('homepage1.jpg');
+background-size:cover;
+}
+.overlay{
+width:100%;
+height:100%;
+font-size:26px;
+color:white;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+background-color:rgba(0,0,0,0.5);
+}
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap:1rem;
+   align-items: flex-start;
+}
+.footer .box-container .box{
+   text-align: center;
+}
+.footer .box-container .box i{
+   font-size: 2.5rem;
+   line-height: 3rem;
+   height: 3rem;
+   width: 3rem;
+   border-radius: 50%;
+   background-color: var(--main-color);
+color:var(--white);
+   margin-bottom: 1rem;
+}
+.footer .box-container .box h3{
+   margin:0.5rem 0;
+   font-size: 2rem;
+color:var(--black);
+}
+.footer .box-container .box p{
+   line-height: 2;
+   font-size: 1rem;
+color:var(--light-color);
+}
+</style>
+</head>
+<body>
+<div class="menu-bar">
+<ul>
+<img src="cafe-logo.png" width="100px" height="70px">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="C:\Users\Shravani\Desktop\codes\microproject\Menu.html">Menu</a></li>
+<li><a href="C:\Users\Shravani\Desktop\codes\microproject\Feedback1.html">Feedback</a></li>
+</ul>
+</div>
+<div class="container">
+<div class="overlay">
+<h1 >Better Brewing...</h1><br><p>Espresso Yourself!!!</p>
+</div>
+<section class="footer">
+<di class="box-container">
+<div class="box">
+<i class="fas fa-envolope"></i>
+<h4>our email</h4>
+<p>cafebetterbrewing@gmail.com</p>
+</div>
+<div class="box">
+<i class="fas fa-clock"></i>
+<h4>opening hours</h4>
+<p>90:00am to 10:00 pm</p>
+</div>
+<div class="box">
+<i class="fas fa-map-marker-alt"></i>
+<h4>shop location</h4>
+<p>aundh,pune</p>
+</div>
+<div class="box">
+<i class="fas fa-phone"></i>
+<h4>our number</h4>
+<p>+91 9976536776</p>
+<p>+91 7680987786</p>
+</div>
+</div>
+</section>
+</body>
+</html>

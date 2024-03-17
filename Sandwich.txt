@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Sandwich</title>
+<link rel="stylesheet" href="menucss.css">
+</head>
+<body>
+<div class="container">
+<h3 class="heading">Sandwich</h3>
+<div class="menu-container">
+<div class="menu" data-name="s1">
+<img src="H:\WD MicroProject\microproject/vegsand.jpg">
+<h3>Veg Sandwich</h3>
+<div class="price">50</div>
+</div>
+<div class="menu" data-name="s2">
+<img src="H:\WD MicroProject\microproject/clubsand.jpg">
+<h3>Club Sandwich</h3>
+<div class="price">50</div>
+</div>
+<div class="menu" data-name="s3">
+<img src="H:\WD MicroProject\microproject/chocolatesand.jpg">
+<h3>Chocolate Sandwich</h3>
+<div class="price">50</div>
+</div>
+<div class="menu" data-name="s4">
+<img src="H:\WD MicroProject\microproject/grillcheese.jpg">
+<h3>Gril Cheese Sandwich</h3>
+<div class="price">50</div>
+</div>
+<div class="menu" data-name="s5">
+<img src="H:\WD MicroProject\microproject/meatballsandwich.jpg">
+<h3>Meatball Sandwich</h3>
+<div class="price">50</div>
+</div>
+<div class="menu" data-name="s6">
+<img src="H:\WD MicroProject\microproject/grilledchickensandwich.jpg">
+<h3>Grilled Chicken Sandwich</h3>
+<div class="price">50</div>
+</div>
+</div>
+</div>
+</body>
+</html>

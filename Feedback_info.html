@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins", sans-serif;
+}
+body{
+min-height:80vh;
+width:80%;
+background:#c8e8e9;
+display:flex;
+align-item:center;
+justify-content:center;
+}
+.container{
+width:80%;
+background:#fff;
+padding:20px 60px 40px 40px;
+border-radius:9px;
+box-shadow:0 5px 10px rgba(0,0,0,0.5);
+}
+.container .content{
+display:flex;
+align-item:center;
+justify-content:space-between;
+}
+.container .content .left-side{
+width:25%;
+height:100%;
+}
+.container .content .right-side{
+width:75%;
+height:100%;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="content">
+<div class="left-side">
+<div class="address details">
+<i  class="fas fa-map-maker-alt"></i>
+<div class="topic">Address</div>
+<div class="text-one">Surkhet,NP12</div>
+<div class="text-two">Pune.</div>
+</div>
+<div class="phone details">
+<i  class="fas fa-phone-alt"></i>
+<div class="topic">Phone</div>
+<div class="text-one">+91 8744932294</div>
+</div>
+<div class="email details">
+<i  class="fas fa-envolope"></i>
+<div class="topic">Email</div>
+<div class="text-one">cafebetterbrewing@gmail.com</div>
+</div></div>
+<div class="right-side">
+<div class="topic-text">Feedback</div>
+<form action="" method="get">
+<div class="feedback">
+<label>First Name:</label><br>
+<input type="text" id="FirstName" name="FirstName" placeholder="Enter Your First Name"><br><br>
+<label>Last Name:</label><br>
+<input type="text" id="LastName" name="LastName" placeholder="Enter Your Last Name"><br><br>
+<label>email-id:</label><br>
+<input type="password" id="password" name="password" placeholder="Enter Your email id"><br><br>
+<label>Phone No:</label><br>
+<input type="text" id="contact-no" name="contact-no" placeholder="Enter Your Phone Number"><br><br>
+<label>Feedback:</label><br>
+<input type="textarea" id="Feedback" name="Feedback"><br><br>
+<label>Ratings</label><br>
+<select name="Rating" id="Rating">
+<option>Excellent</option>
+<option>Very Good</option>
+<option>Good</option>
+<option>Bad</option>
+<option>Very Bad</option>
+<button type="button">Submit</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

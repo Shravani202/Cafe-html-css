@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+backgroung:#fff;
+min-height:100vh;
+display:flex;
+text-align:center;
+justify-content:center;
+}
+.contact-info{
+display:flex;
+text-align:center;
+justify-content:center;
+width:100%;
+max-width:1700px;
+padding 0 20px;
+}
+.card{
+background:#2f3542;
+padding:0 20px;
+margin:0 10px;
+height:150px;
+display:flex;
+}
+</style>
+</head>
+<body>
+<div class="contact-info">
+<div class="card">
+<i class="card-icon fas fa-envolope"></i>
+<p>cafebetterbrewing@gmail.com</p>
+</div>
+<div class="card">
+<i class="card-icon fas fa-phone"></i>
+<p>+91 977536778</p>
+</div>
+<div class="card">
+<i class="card-icon fas fa-map-maker-alt"></i>
+<p>paris,new york</p>
+</div>
+</div>
+</body>
+</html>

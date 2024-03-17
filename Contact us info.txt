@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+</style>
+<title>Contact us</title>
+</head>
+<body>
+<div class="contact">
+<div class="card">
+<i class="card-icon for fa-envolope"></i>
+<p>cafebetterbrewing@gmail.com</p>
+</div>
+<div class="card">
+<i class="card-icon for phone"></i>
+<p>+91 9976497622</p>
+</div>
+<div class="card">
+<i class="card-icon for fa-map-marker-alt"></i>
+<p>pune</p>
+</div>
+</body>
+</html>

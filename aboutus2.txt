@@ -1,0 +1,16 @@
+<html>
+<head>
+<style>
+body{ 
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("D:\WD MicroProject\microproject/aboutus2.jpg"), url("D:\WD MicroProject\microproject/aboutus3.jpg");
+  background-blend-mode: lighten;
+}
+</style>
+</head>
+<body>
+<h1>The background-blend-mode Property</h1>
+</body>
+</html>

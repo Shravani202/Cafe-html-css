@@ -1,0 +1,36 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+text-transform:capitalize;
+outline:0;
+border:0;
+}
+body{
+background:#eee;
+}
+.container{
+width:90%;
+margin:0 auto;
+}
+.container .heading{
+font-size:3.2rem;
+color: #333;
+margin-bottom:3rem;
+text-align:center;
+}
+.container .menu-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(30%,1fr));
+gap:1rem;
+margin-bottom:3rem;
+}
+.container .menu-container .menu{
+text-align:center;
+padding:0.5rem;
+background:#fff;
+box-shadow:0 0.5rem 1rem rgba(0,0,0,0.3);
+}
+.container .menu-container .menu .img{
+width:100%
+}
